@@ -1,0 +1,99 @@
+.boxmodel{
+    border-style: double;    
+    text-align: center;
+    font-size: medium;
+    background-color: lightgrey;     
+  border: 15px solid rgb(56, 61, 56);
+  margin: 20px;
+
+}
+p{
+    color: #ae0a0a;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: right;
+}
+.box1{
+border-style: dotted;
+border-color: blueviolet;
+text-align: right;
+}
+.box2{
+    border-style: groove;
+    text-align: justify;
+    border-color: aquamarine;
+    border-radius: 10%;
+}
+.rtl{
+    
+    border-style: double;
+    padding-left: 0vmin;
+    padding-right: 0cqw;
+    padding-bottom: 0cm;
+    padding-top: 0vmin;
+    
+
+    direction: rtl;
+  unicode-bidi: bidi-override;
+}
+.ver{
+    
+    vertical-align: middle;
+
+    border-style: dotted;
+    border-color: rgb(9, 134, 9);
+   
+}
+#deco{
+  border-style: groove;
+  
+}
+div.a{
+    text-decoration-line: line-through;
+    text-decoration-style:solid ;
+}
+div.b{
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(1, 23, 9)  rgb(25, 34, 213);
+}
+div.c{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(4, 117, 79);
+    text-decoration-style: dashed;
+    
+}
+div.d{
+    text-decoration-line: wavy;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+}
+div.e{
+    text-decoration-line: overline underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: wavy;
+}
+.shadow{
+    border-style: dotted ;color: #e40d0d;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+div.txtsha{
+    
+    font-size: larger;
+    text-shadow: 2px 3px green;
+}
+#boxshadow{
+    border: 2px  solid;
+  padding: 10px;
+  box-shadow: 5px  5px red;
+}
